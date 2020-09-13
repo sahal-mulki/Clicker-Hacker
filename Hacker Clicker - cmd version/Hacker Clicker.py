@@ -2,6 +2,7 @@ import pyautogui
 import time
 import os
 import pyscreeze
+import sys
 
 __author__ = "Sahal Mulki"
 
