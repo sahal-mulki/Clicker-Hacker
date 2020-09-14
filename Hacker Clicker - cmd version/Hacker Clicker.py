@@ -6,6 +6,9 @@ import sys
 
 __author__ = "Sahal Mulki"
 
+global mode
+mode = sys.argv[1]
+
 print("Made by Sahal Mulki")
 print("     H     ")
 print("     A     ")
@@ -21,13 +24,8 @@ print("     C     ")
 print("     K     ")
 print("     E     ")
 print("     R     ")
-
-print("(Y)es or (N)o")
-    
-input0 = input("Would you Like to hack (C)ookie Clicker or (D)oge Clicker")
  
-
-if input0 == "C":
+if mode == "cookie":
 
     input1 = input("Would you Like to (I)nfinity Tap or Tap the cookie a (S)pecified amount of times")
     
@@ -36,7 +34,13 @@ if input0 == "C":
 
         screen = pyscreeze.screenshot()
         cookie = pyscreeze.locateOnScreen('cookie.png')
-        cookiex, cookiey = pyscreeze.center(cookie)
+        try:
+            screen = pyscreeze.screenshot()
+            cookie = pyscreeze.locateOnScreen('cookie.png')
+            cookiex, cookiey = pyscreeze.center(cookie)
+        except TypeError:
+            helo = input("Cookie not found :(")
+            os._exit(0)
 
         pyautogui.moveTo(cookiex, cookiey)
 
@@ -68,7 +72,7 @@ if input0 == "C":
             print("DONE!")
             time.sleep(10)
 
-elif input0 == "D":
+elif mode == "doge":
 
     input6 = input("How many cycles do you want to execute?")
     input7 = input("Put your cursor on rock")
