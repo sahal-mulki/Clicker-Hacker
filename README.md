@@ -1,10 +1,16 @@
 # Clicker-Hacker
-A python program for automating various Clicker Games
+A python program for automating various Clicker Games.
 
-##
-Support for:
+## Installation
 
-- [x] Cookie Clicker
-- [x] Doge Miner 2
+### Windows
+`cd` into this directory then enter `pip install -r requirements.txt --no-index --user`
+
+### Linux
+The process is same here.
+
+## Usage
+
+Coming soon...
 
 _**Sahal Mulki**_
