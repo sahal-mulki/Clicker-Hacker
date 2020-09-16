@@ -21,8 +21,6 @@ print("     K     ")
 print("     E     ")
 print("     R     ")
 
-print("(Y)es or (N)o")
-    
 input0 = input("Would you Like to hack (C)ookie Clicker or (D)oge Clicker")
  
 
