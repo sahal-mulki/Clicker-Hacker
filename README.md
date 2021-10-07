@@ -11,6 +11,6 @@ The process is same here.
 
 ## Usage
 
-Coming soon...
+Go into the Hacker Clicker/ folder. Run the Hacker Clicker.py file, follow the instructions then.
 
 _**Sahal Mulki**_
