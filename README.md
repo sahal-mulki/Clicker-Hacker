@@ -4,7 +4,7 @@ A python program for automating various Clicker Games.
 ## Installation
 
 ### Windows
-`cd` into this directory then enter `pip install -r requirements.txt --no-index --user`
+`cd` into this directory then enter `pip install -r requirements.txt`
 
 ### Linux
 The process is same here.
